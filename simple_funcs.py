@@ -36,7 +36,7 @@ def print_hello():
     print("Hello")
 
 
-def get_name(name):
+def echo_name(name):
     return f"Hello {name}"
 
 
