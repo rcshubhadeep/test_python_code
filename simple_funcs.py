@@ -32,7 +32,7 @@ def add_tensors (t, t1):
     return t + t1
 
 
-def print_hello():
+def print_hello_greetings():
     print("Hello")
 
 
