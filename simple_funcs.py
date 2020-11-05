@@ -36,6 +36,10 @@ def print_hello():
     print("Hello")
 
 
+def get_name(name):
+    return f"Hello {name}"
+
+
 # if __name__ == "__main__":
 #     print(add(12, 12))
 
