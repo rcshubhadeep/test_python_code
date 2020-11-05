@@ -8,6 +8,12 @@ from pandas import get_option, option_context
 
 
 def read_clipboard(sep=r"\s+", **kwargs):  # pragma: no cover
+    """
+    Reads a clipboard from clipboard.
+
+    Args:
+        sep: (str): write your description
+    """
 
     encoding = kwargs.pop("encoding", "utf-8")
 
@@ -60,6 +66,14 @@ def read_clipboard(sep=r"\s+", **kwargs):  # pragma: no cover
 
 
 def to_clipboard(obj, excel=True, sep=None, **kwargs):  # pragma: no cover
+    """
+    R write object to_set to clipboard.
+
+    Args:
+        obj: (todo): write your description
+        excel: (bool): write your description
+        sep: (todo): write your description
+    """
 
     encoding = kwargs.pop("encoding", "utf-8")
 
